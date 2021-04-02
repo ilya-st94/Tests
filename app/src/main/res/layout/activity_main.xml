@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbegraund"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="314dp"
+        android:background="@drawable/book" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@drawable/ovalknopka"
+        android:onClick="knopkaregistration"
+        android:text="Войти как ученик"
+        android:textColor="@color/colorsuperBlack" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@drawable/ovalknopka"
+        android:onClick="klik_for_teatcher"
+        android:text="войти как учитель"
+        android:textColor="@color/colorsuperBlack" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbegraund"
+    tools:context=".Samtest">
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="408dp"
+        android:layout_height="130dp"
+        android:background="@color/quation_baground"
+        android:gravity="center"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <RadioButton
+        android:id="@+id/answer1"
+        android:layout_width="369dp"
+        android:layout_height="109dp"
+        android:background="@drawable/answer_baground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <RadioButton
+        android:id="@+id/answer2"
+        android:layout_width="369dp"
+        android:layout_height="109dp"
+        android:background="@drawable/answer_baground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <RadioButton
+        android:id="@+id/radioknopka_answer3"
+        android:layout_width="369dp"
+        android:layout_height="109dp"
+        android:background="@drawable/answer_baground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <Button
+        android:id="@+id/knopkanextquestion"
+        android:layout_width="120dp"
+        android:layout_height="56dp"
+        android:background="@drawable/ovalknopka"
+        android:text="Следующий"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <Button
+        android:id="@+id/knopkastart"
+        android:layout_width="120dp"
+        android:layout_height="56dp"
+        android:background="@drawable/ovalknopka"
+        android:onClick="start"
+        android:text="Начать"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+
+    <Button
+        android:id="@+id/knopkanextquestion2"
+        android:layout_width="120dp"
+        android:layout_height="56dp"
+        android:background="@drawable/ovalknopka"
+        android:text="Выбрать"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <Button
+        android:id="@+id/knopkafinish"
+        android:layout_width="120dp"
+        android:layout_height="56dp"
+        android:background="@drawable/ovalknopka"
+        android:text="Завершить"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <TextView
+        android:id="@+id/timecod4"
+        android:layout_width="71dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:textColor="@color/colorRed"
+        android:textSize="40dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931" />
+
+    <TextView
+        android:id="@+id/timecod"
+        android:layout_width="43dp"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:textColor="@color/colorGreen"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
+
+    <TextView
+        android:id="@+id/timecod2"
+        android:layout_width="43dp"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:textColor="@color/colorGreen"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <TextView
+        android:id="@+id/timecod3"
+        android:layout_width="43dp"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:text=":"
+        android:textColor="@color/colorGreen"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

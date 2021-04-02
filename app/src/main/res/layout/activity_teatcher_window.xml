@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbegraund"
+    android:gravity="bottom"
+    tools:context=".Teatcher_window">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/light_bulb" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:background="@color/answer_baground"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/answer_baground"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:hint="пороль"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/entered_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/knopka_baground"
+        android:onClick="Entered"
+        android:text="Войти"
+        />
+
+    <Button
+        android:id="@+id/button_registration"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/knopka_baground"
+        android:onClick="registation"
+        android:text="Зарегестрироваться"
+         />
+
+
+
+
+</LinearLayout>

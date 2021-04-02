@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tests</string>
+    <string name="name_knopkanext">Начать</string>
+    <string name="name_knopkanext2">Следующий</string>
+    <string name="name_knopkafinish">Завершить</string>
+    <string name="name_knopkapustota"> </string>
+</resources>

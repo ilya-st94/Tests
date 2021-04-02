@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlack">#680A03</color>
+    <color name="colorBlue">#822991</color>
+    <color name="colorsuperBlack">#050505</color>
+    <color name="colorGreen">#7CCC0A</color>
+    <color name="colorYelow">#E3D80B</color>
+    <color name="colorRed">#E30B0B</color>
+    <color name="colorPhon">#3A8BCC</color>
+    <color name="colorSery">#BDBFC1</color>
+    <color name="colorbegraund">#F5DEB3</color>
+    <color name="button_frame_collor">#008080</color>
+    <color name="button_baground">#20B2AA</color>
+    <color name="quation_baground">#48D1CC</color>
+    <color name="answer_baground">#AFEEEE</color>
+    <color name="radiobatton_baground">#20B2AA</color>
+</resources>
